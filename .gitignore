@@ -1,0 +1,9 @@
+# Build folders and study outputs.
+/build/
+/results/
+# Outputs and caches of the result-table scripts.
+/study-scripts/tables/out/
+# Outputs and caches of the analysis scripts.
+/study-scripts/analyses/**/out/
+__pycache__/
+*.py[cod]

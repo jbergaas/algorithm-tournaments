@@ -1,0 +1,16 @@
+{
+  "description": "Smoke test of the full design on two small networks: budget 5, two thresholds, 4 runs (a few seconds).",
+  "networks": [
+    {"name": "ego-Facebook", "path": "data/ego-Facebook.mtx"},
+    {"name": "er-d8-i0", "path": "data/er-d8-i0.mtx"}
+  ],
+  "algorithms": ["random", "degree", "coverage_greedy", "pagerank", "betweenness"],
+  "sequences": ["sequential_a", "sequential_b", "alternating_a", "snake"],
+  "budgets": [5],
+  "thresholds": [0.25, 0.28125],
+  "runs": 4,
+  "deterministic_runs": 2,
+  "base_seed": 42,
+  "betweenness_threads": 16,
+  "jobs": 4
+}

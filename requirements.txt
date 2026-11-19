@@ -1,0 +1,13 @@
+# Python packages, at the versions the study used (CPython 3.10.9).
+# Install with: pip install -r requirements.txt
+#
+# scripts/ and analysis/
+numpy==1.23.5
+matplotlib==3.6.1
+# study-scripts/ (generate_networks.py reproduces the generated networks byte for byte only with
+# these networkx and numpy versions)
+pandas==1.5.3
+networkx==2.8.4
+scipy==1.9.3
+# study-scripts/analyses/ (compiles the simulators)
+numba==0.56.4
